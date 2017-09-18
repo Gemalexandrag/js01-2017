@@ -1,0 +1,22 @@
+<!doctype html>   <html lang="en">
+     <head>    <h5>Mad Lib</h5>
+        <meta charset="utf-8">
+         <script>    window.onload = init;
+               function init() {      var button = document.getElementById("submit");      button.onclick = goMad;    }
+         function goMad() {      var words = 0;      var inputs = document.getElementsByTagName("input");
+            var story = words[0] + "! he said " + words[1] + " as he jumped into his convertible " + words[2] + " and drove off with his " + words[3] + " wife."
+              for (var i = 0; i < inputs.length; i++) {      var addendString = inputs[i].words;      }      var div = document.getElementById("story");      div.innerHTML = story;    }
+                 </script>
+             </head>
+               <body>   <p>  this is my mad libs page   </p>
+                 <br> <p> do it</p>
+                  <form>   <p> </p>
+                  <label for="exclamation">type of dog:</label>
+                    <input id="exclamation" type="text" size="20"> <br>
+                      <p>are so cute he said,</p>   <label for="adverb">adverb:</label>
+                        <input id="adverb" type="text" size="20"><br>
+                  <p> as he went over and rubed the dogs belly</p>   <label for="noun">Noun:</label>
+                  <input id="noun" type="text" size="20"><br>   <p>and drove off with his</p>
+                   <label for="adjective">Adjective:</label>
+                   <input id="adjective" type="text" size="20">
+    <br>   <p>dog</p>        </body>  </html>

@@ -1,0 +1,60 @@
+<html>
+<head>
+<script>
+   function come() {
+      var come = prompt("your mom ask if you want to come to the supermarket with her, do you want to come?");
+        if (come == "yes"){
+        alert("you end up going to MAC, she meets some one and talks to long. you dehigrate");
+        }else if (come == "no"){
+         bored()}
+    }
+     function bored() {
+      var bored = prompt("you have diffrent friends, a world wide traveler, stay at home guy or alwas with his mother. were do want to go?");
+   if (bored == "wwt"){
+    alert("you finaly get there and really have to pee cuz its so far. you knock fast, no one awners. the your wet. you die");
+  }else if (bored == "awhm"){
+     alert("you walk over, he was grounded, and on the way back you get eaten by a cat");
+   }else if (bored == "hg"){
+     hg()}
+};
+function hg(){
+var hg = prompt("he let you in. some one knocks on the door. what do you do?");
+if (hg == "dont open door"){
+  alert("he knocks down your door, charmander does flame thrower, unlike the anmaie seires you die");
+}else if (hg == "open door"){
+gunpoint()}
+};
+function gunpoint(){
+var gp = prompt("you open the door, he throws out a bulbusour. he says come with me or else. you coming?");
+  if (gp == "no"){
+  alert("you get spanked so hard from bulbasor , also he calls your mother");
+} else if (gp == "yes")
+  taken()
+};
+function taken(){
+var taken = prompt("you end up below ground some where, your friend thinks you should escape. will you?");
+  if (taken == "no"){
+  alert("your friend disagrees runs away and the end up killing you");
+}else if (taken == "yes"){
+  where()}
+};
+ function where(){
+prompt("you guys escape, but you have to think fast, you have five bucks, the supermarket is close, you can get some water, or just go home.");
+if (where == "supermarket"){
+alert("mom is there, you get grounded");
+}else if (where == "home"){
+  home()}
+};
+ function home() {
+   var home = prompt("you hear your mom coming home, your friend is with you, hide him or tell him to run?");
+   if (home == "run"){
+   alert("mom catches you, lets just say you died");
+ }else if (home == "hide"){
+   alert("you won...for now!")}
+ }
+ come()
+</script>
+</head>
+<body>
+</body>
+</html>
